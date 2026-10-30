@@ -4,7 +4,7 @@ This repository is a sample security workbook for teams building **agentic AI ap
 
 The workbook is organised around [OWASP](https://owasp.org/) risk categories for LLM and agentic systems — specifically the [LLM Top 10 (2025)](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and the [Top 10 for Agentic Applications (ASI) 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/). Each chapter targets one or more of those risks (for example prompt injection, tool misuse, supply chain, cascading failures, or rogue agents), with vulnerable and secure patterns you can apply while building.
 
-**14 chapters. Vulnerable vs secure patterns in every chapter. Real exploits. Real fixes.**
+**14 chapters. Vulnerable vs secure patterns in every chapter. Sample exploits. Sample fixes.**
 
 Every chapter follows the same recipe: real scenario → vulnerable code → what breaks → secure code → what changed → hands-on lab.
 

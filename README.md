@@ -6,7 +6,7 @@ The workbook is organised around [OWASP](https://owasp.org/) risk categories for
 
 **14 chapters. Vulnerable vs secure patterns in every chapter. Sample exploits. Sample fixes.**
 
-Every chapter follows the same recipe: real scenario → vulnerable code → what breaks → secure code → what changed → hands-on lab.
+Every chapter follows the same recipe: scenario → vulnerable code → what breaks → secure code → what changed → hands-on lab.
 
 ---
 

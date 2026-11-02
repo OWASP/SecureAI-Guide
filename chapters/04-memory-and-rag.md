@@ -1,4 +1,4 @@
-# Chapter 04 — Memory Is Not Magic
+# Chapter 04 — Memory and RAG — Don't Trust Retrieved Text
 
 **Safe Persistent Memory and RAG for AI Agents**
 

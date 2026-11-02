@@ -1,4 +1,4 @@
-# Chapter 13 — Don't Rubber-Stamp
+# Chapter 13 — Human Approval — Make Confirmations Real
 
 **Human–Agent Trust and Approval UX You Can Actually Rely On**
 
@@ -151,7 +151,7 @@ HITL is not a checkbox. If humans approve **stories** instead of **actions**, yo
 
 ## Next Chapter
 
-**[Chapter 14 → Catch the Rogue](./14-catch-the-rogue.md)**  
+**[Chapter 14 → Rogue Agents — Detect Goal Drift and Stop It](./14-rogue-agents.md)**  
 Detecting drift, concealment, and agents that step outside policy — and killing them when they do.
 
 ---

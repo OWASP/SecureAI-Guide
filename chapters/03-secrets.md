@@ -1,4 +1,4 @@
-# Chapter 03 — Secrets Don't Belong in Prompts
+# Chapter 03 — Secrets — Keep Them Out of Model Context
 
 **Sensitive Information Handling for AI Applications**
 

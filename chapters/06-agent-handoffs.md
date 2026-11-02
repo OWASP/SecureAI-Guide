@@ -1,4 +1,4 @@
-# Chapter 06 — Multi-Agent Trust Is Not Free
+# Chapter 06 — Agent Handoffs — Authenticate Every Call
 
 **Secure Orchestration and Inter-Agent Communication**
 
@@ -39,7 +39,7 @@ None of these required breaking authentication. They exploited the assumption th
 
 ---
 
-## Why Multi-Agent Trust Is Not Free
+## Why Agent Handoffs Need Authentication
 
 In a single-agent system, trust flows in one direction: user → agent. The attack surface is well-understood. In a multi-agent system, every agent is both a caller and a callee — it issues instructions to sub-agents and receives results from them. This creates three new attack surfaces that do not exist in single-agent designs:
 
@@ -344,7 +344,7 @@ def tool_with_context_check(args: dict, context: AgentContext) -> str:
 
 ---
 
-## The Four Multi-Agent Trust Rules
+## The Four Agent Handoff Rules
 
 ### Rule 1 — Agents must authenticate each other
 
@@ -524,7 +524,7 @@ Multi-agent systems do not inherit trust automatically. Every message crossing a
 
 ## Next Chapter
 
-**[Chapter 07 → Don't Render What the Model Returns](./07-dont-render-what-the-model-returns.md)**
+**[Chapter 07 → Model Output — Never Execute It Raw](./07-model-output.md)**
 XSS via model output, second-order injection, shell and SQL injection through agent-generated content, and sanitisation at every output sink.
 
 ---

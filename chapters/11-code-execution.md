@@ -1,4 +1,4 @@
-# Chapter 11 — Sandbox the Code
+# Chapter 11 — Code Execution — Sandbox Model-Written Code
 
 **Unexpected Code Execution Controls for AI Agents**
 
@@ -170,7 +170,7 @@ If the model can run arbitrary code on your infrastructure, prompt injection bec
 
 ## Next Chapter
 
-**[Chapter 12 → Stop the Cascade](./12-stop-the-cascade.md)**  
+**[Chapter 12 → Failure Containment — Limit Blast Radius](./12-failure-containment.md)**  
 How failures and poisoned results fan out across multi-agent systems — and how to contain them.
 
 ---

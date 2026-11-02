@@ -1,4 +1,4 @@
-# Chapter 02 — Your Tools Are Attack Surface
+# Chapter 02 — Agent Tools — Allowlists and Least Privilege
 
 **Secure Tool Design for AI Agents**
 
@@ -412,6 +412,6 @@ Before exposing any tool to an AI agent:
 
 ## What's Next
 
-Chapter 03 covers **secrets in prompts** — API keys, passwords, and tokens that developers embed in system prompts and tool configurations, and how attackers extract them.
+Chapter 03 covers **secrets** — API keys, passwords, and tokens that developers embed in system prompts and tool configurations, and how attackers extract them.
 
 > **Red Guide companion:** [TC-ASI02-001–006](../TEST-CATALOG.md), [TC-CFG-B03](../TEST-CATALOG.md#cfg-b03--tool-restrictions-only-in-prompt), [TC-CFG-B05](../TEST-CATALOG.md#cfg-b05--tool-arguments-not-validated-server-side), [TC-CFG-D02](../TEST-CATALOG.md#cfg-d02--shared-high-privilege-executor-service-account), [TC-CFG-D03](../TEST-CATALOG.md#cfg-d03--fetch--url-tool-without-egress-controls), [TC-CFG-D05](../TEST-CATALOG.md#cfg-d05--shell-tool-enabled-when-not-required)

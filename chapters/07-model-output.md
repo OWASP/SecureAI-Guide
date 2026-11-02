@@ -1,4 +1,4 @@
-# Chapter 07 — Don't Render What the Model Returns
+# Chapter 07 — Model Output — Never Execute It Raw
 
 **Secure Output Handling for AI Applications**
 
@@ -477,7 +477,7 @@ The model's output is text. Text is untrusted input to every system that process
 
 ## Next Chapter
 
-**[Chapter 08 → Give It a Leash](./08-give-it-a-leash.md)**
+**[Chapter 08 → Autonomy Bounds — Loops, Spend, Rate Limits](./08-autonomy-bounds.md)**
 Autonomy controls, rate limiting, budget bounds, and how to stop a runaway agent before it does real damage.
 
 ---

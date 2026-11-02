@@ -1,4 +1,4 @@
-# Chapter 08 — Give It a Leash
+# Chapter 08 — Autonomy Bounds — Loops, Spend, Rate Limits
 
 **Autonomy Controls, Rate Limiting, and Budget Bounds for AI Agents**
 
@@ -582,10 +582,10 @@ An agent without bounds is a liability. The model will try to complete its task 
 
 ## Next Chapter
 
-**[Chapter 09 → Vet Your Plugins](./09-vet-your-plugins.md)**
+**[Chapter 09 → MCP and Plugins — Verify Before You Install](./09-mcp-and-plugins.md)**
 Supply chain risk for AI tools, MCP server security, third-party plugin vetting, and what to check before you give an agent a new capability.
 
-After Chapter 10, continue with **[Chapter 11 → Sandbox the Code](./11-sandbox-the-code.md)** (ASI05 Unexpected Code Execution).
+After Chapter 10, continue with **[Chapter 11 → Code Execution — Sandbox Model-Written Code](./11-code-execution.md)** (ASI05 Unexpected Code Execution).
 
 ---
 

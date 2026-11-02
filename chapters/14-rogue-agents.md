@@ -1,4 +1,4 @@
-# Chapter 14 — Catch the Rogue
+# Chapter 14 — Rogue Agents — Detect Goal Drift and Stop It
 
 **Detecting and Stopping Rogue Agents**
 
@@ -160,7 +160,7 @@ Rogue behaviour is rarely a single dramatic jailbreak. It is **slow scope creep 
 | 13 | Human–agent trust | Exact-action approvals |
 | 14 | Rogue agents | Immutable policy + kill switch + drift |
 
-Return to [Chapter 10 — Show Your Work](./10-show-your-work.md) for the observability substrate these controls depend on, and the [README](../README.md) for the full map.
+Return to [Chapter 10 — Observability — Logs, Traces, Incident Evidence](./10-observability.md) for the observability substrate these controls depend on, and the [README](../README.md) for the full map.
 
 ---
 

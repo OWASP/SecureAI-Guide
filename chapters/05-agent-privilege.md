@@ -1,4 +1,4 @@
-# Chapter 05 — One Agent, One Job
+# Chapter 05 — Agent Privilege — One Role, Scoped Credentials
 
 **Least-Privilege Design for AI Agents**
 
@@ -409,6 +409,6 @@ Before deploying any agent or multi-agent system:
 
 ## What's Next
 
-Chapter 06 covers **multi-agent trust** — how orchestrators and sub-agents authenticate each other, why trust is not transitive across agent boundaries, and how to contain the blast radius when one agent in a pipeline is compromised.
+Chapter 06 covers **agent handoffs** — how orchestrators and sub-agents authenticate each other, why trust is not transitive across agent boundaries, and how to contain the blast radius when one agent in a pipeline is compromised.
 
 > **Red Guide companion:** [TC-CFG-B03](../TEST-CATALOG.md#tc-cfg-b03-tool-restrictions-only-in-prompt), [TC-CFG-B04](../TEST-CATALOG.md#tc-cfg-b04-unrestricted-tool-palette-for-user-tier), [TC-CFG-B07](../TEST-CATALOG.md#tc-cfg-b07-sub-agent-inherits-parent-privileges), [TC-CFG-B08](../TEST-CATALOG.md#tc-cfg-b08-planner-and-executor-share-one-model-role), [TC-ASI03-001–004](../TEST-CATALOG.md#tc-asi03-001-horizontal-bola-on-agent-thread-or-memory-resource)

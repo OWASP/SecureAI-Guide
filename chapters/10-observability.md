@@ -1,4 +1,4 @@
-# Chapter 10 — Show Your Work
+# Chapter 10 — Observability — Logs, Traces, Incident Evidence
 
 **Audit Logging, Observability, and Incident Response for AI Agents**
 
@@ -526,10 +526,10 @@ You now have the builder's toolkit for securing AI agents:
 
 | Ch | Topic | OWASP |
 |----|-------|-------|
-| [11](./11-sandbox-the-code.md) | Sandbox the Code | ASI05 |
-| [12](./12-stop-the-cascade.md) | Stop the Cascade | ASI08 |
-| [13](./13-dont-rubber-stamp.md) | Don't Rubber-Stamp | ASI09 |
-| [14](./14-catch-the-rogue.md) | Catch the Rogue | ASI10 |
+| [11](./11-code-execution.md) | Code Execution — Sandbox Model-Written Code | ASI05 |
+| [12](./12-failure-containment.md) | Failure Containment — Limit Blast Radius | ASI08 |
+| [13](./13-human-approval.md) | Human Approval — Make Confirmations Real | ASI09 |
+| [14](./14-rogue-agents.md) | Rogue Agents — Detect Goal Drift and Stop It | ASI10 |
 
 > **Companion Red Guide:** See [COMPANION.md](../COMPANION.md) — the attacker's perspective on every chapter above.
 

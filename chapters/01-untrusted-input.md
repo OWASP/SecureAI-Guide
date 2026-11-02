@@ -1,4 +1,4 @@
-# Chapter 01 — Don't Trust the Prompt
+# Chapter 01 — Untrusted Input — Treat It as Data
 
 **Input Architecture for AI Applications**
 
@@ -382,7 +382,7 @@ The model cannot tell the difference between your instructions and an attacker's
 
 ## Next Chapter
 
-**[Chapter 02 → Your Tools Are Attack Surface](./02-your-tools-are-attack-surface.md)**
+**[Chapter 02 → Agent Tools — Allowlists and Least Privilege](./02-agent-tools.md)**
 Tool call authorization, path traversal, confused deputy, and server-side parameter validation.
 
 ---

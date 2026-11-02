@@ -1,4 +1,4 @@
-# Chapter 12 — Stop the Cascade
+# Chapter 12 — Failure Containment — Limit Blast Radius
 
 **Containing Cascading Failures in Multi-Agent Systems**
 
@@ -182,7 +182,7 @@ Budgets limit *how long* one agent runs. Cascade controls limit *how far* a bad 
 
 ## Next Chapter
 
-**[Chapter 13 → Don't Rubber-Stamp](./13-dont-rubber-stamp.md)**  
+**[Chapter 13 → Human Approval — Make Confirmations Real](./13-human-approval.md)**  
 Human-in-the-loop that attackers can socially engineer — and how to design approvals that hold.
 
 ---

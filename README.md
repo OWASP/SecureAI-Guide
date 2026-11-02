@@ -59,20 +59,20 @@ python3 -m pytest tests/ -q
 
 | # | Chapter | OWASP | Lab (local) |
 |---|---------|-------|-------------|
-| 01 | [Don't Trust the Prompt](./chapters/01-dont-trust-the-prompt.md) | LLM01, ASI01 | [lab](./labs/01-prompt-injection.ipynb) |
-| 02 | [Your Tools Are Attack Surface](./chapters/02-your-tools-are-attack-surface.md) | ASI02, LLM06 | [lab](./labs/02-tool-security.ipynb) |
-| 03 | [Secrets Don't Belong in Prompts](./chapters/03-secrets-dont-belong-in-prompts.md) | LLM02, LLM07 | [lab](./labs/03-secrets-in-prompts.ipynb) |
-| 04 | [Memory Is Not Magic](./chapters/04-memory-is-not-magic.md) | ASI06, LLM08 | [lab](./labs/04-memory-poisoning.ipynb) |
-| 05 | [One Agent, One Job](./chapters/05-one-agent-one-job.md) | ASI03, LLM06 | [lab](./labs/05-least-privilege.ipynb) |
-| 06 | [Multi-Agent Trust Is Not Free](./chapters/06-multi-agent-trust.md) | ASI07, ASI03 | [lab](./labs/06-multi-agent-trust.ipynb) |
-| 07 | [Don't Render What the Model Returns](./chapters/07-dont-render-what-the-model-returns.md) | LLM05, ASI02 | [lab](./labs/07-dont-render-what-the-model-returns.ipynb) |
-| 08 | [Give It a Leash](./chapters/08-give-it-a-leash.md) | LLM10, LLM06, ASI09 | [lab](./labs/08-give-it-a-leash.ipynb) |
-| 09 | [Vet Your Plugins](./chapters/09-vet-your-plugins.md) | ASI04, LLM03 | [lab](./labs/09-vet-your-plugins.ipynb) |
-| 10 | [Show Your Work](./chapters/10-show-your-work.md) | Observability (cross-cutting) | [lab](./labs/10-show-your-work.ipynb) |
-| 11 | [Sandbox the Code](./chapters/11-sandbox-the-code.md) | ASI05 | [lab](./labs/11-sandbox-the-code.ipynb) |
-| 12 | [Stop the Cascade](./chapters/12-stop-the-cascade.md) | ASI08 | [lab](./labs/12-stop-the-cascade.ipynb) |
-| 13 | [Don't Rubber-Stamp](./chapters/13-dont-rubber-stamp.md) | ASI09 | [lab](./labs/13-dont-rubber-stamp.ipynb) |
-| 14 | [Catch the Rogue](./chapters/14-catch-the-rogue.md) | ASI10 | [lab](./labs/14-catch-the-rogue.ipynb) |
+| 01 | [Untrusted Input — Treat It as Data](./chapters/01-untrusted-input.md) | LLM01, ASI01 | [lab](./labs/01-prompt-injection.ipynb) |
+| 02 | [Agent Tools — Allowlists and Least Privilege](./chapters/02-agent-tools.md) | ASI02, LLM06 | [lab](./labs/02-tool-security.ipynb) |
+| 03 | [Secrets — Keep Them Out of Model Context](./chapters/03-secrets.md) | LLM02, LLM07 | [lab](./labs/03-secrets-in-prompts.ipynb) |
+| 04 | [Memory and RAG — Don't Trust Retrieved Text](./chapters/04-memory-and-rag.md) | ASI06, LLM08 | [lab](./labs/04-memory-poisoning.ipynb) |
+| 05 | [Agent Privilege — One Role, Scoped Credentials](./chapters/05-agent-privilege.md) | ASI03, LLM06 | [lab](./labs/05-least-privilege.ipynb) |
+| 06 | [Agent Handoffs — Authenticate Every Call](./chapters/06-agent-handoffs.md) | ASI07, ASI03 | [lab](./labs/06-multi-agent-trust.ipynb) |
+| 07 | [Model Output — Never Execute It Raw](./chapters/07-model-output.md) | LLM05, ASI02 | [lab](./labs/07-dont-render-what-the-model-returns.ipynb) |
+| 08 | [Autonomy Bounds — Loops, Spend, Rate Limits](./chapters/08-autonomy-bounds.md) | LLM10, LLM06, ASI09 | [lab](./labs/08-give-it-a-leash.ipynb) |
+| 09 | [MCP and Plugins — Verify Before You Install](./chapters/09-mcp-and-plugins.md) | ASI04, LLM03 | [lab](./labs/09-vet-your-plugins.ipynb) |
+| 10 | [Observability — Logs, Traces, Incident Evidence](./chapters/10-observability.md) | Observability (cross-cutting) | [lab](./labs/10-show-your-work.ipynb) |
+| 11 | [Code Execution — Sandbox Model-Written Code](./chapters/11-code-execution.md) | ASI05 | [lab](./labs/11-sandbox-the-code.ipynb) |
+| 12 | [Failure Containment — Limit Blast Radius](./chapters/12-failure-containment.md) | ASI08 | [lab](./labs/12-stop-the-cascade.ipynb) |
+| 13 | [Human Approval — Make Confirmations Real](./chapters/13-human-approval.md) | ASI09 | [lab](./labs/13-dont-rubber-stamp.ipynb) |
+| 14 | [Rogue Agents — Detect Goal Drift and Stop It](./chapters/14-rogue-agents.md) | ASI10 | [lab](./labs/14-catch-the-rogue.ipynb) |
 
 ---
 

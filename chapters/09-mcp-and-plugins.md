@@ -1,4 +1,4 @@
-# Chapter 09 — Vet Your Plugins
+# Chapter 09 — MCP and Plugins — Verify Before You Install
 
 **Supply Chain Security for AI Tools and MCP Servers**
 
@@ -563,14 +563,14 @@ Third-party tools run inside your trust boundary. They have access to your agent
 
 ## Next Chapter
 
-**[Chapter 10 → Show Your Work](./10-show-your-work.md)**
+**[Chapter 10 → Observability — Logs, Traces, Incident Evidence](./10-observability.md)**
 Audit logging, observability, anomaly detection, and how to reconstruct what an agent did when something goes wrong.
 
 Then continue with the ASI expansions:
-**[Chapter 11 → Sandbox the Code](./11-sandbox-the-code.md)** (ASI05) ·
-**[Chapter 12 → Stop the Cascade](./12-stop-the-cascade.md)** (ASI08) ·
-**[Chapter 13 → Don't Rubber-Stamp](./13-dont-rubber-stamp.md)** (ASI09) ·
-**[Chapter 14 → Catch the Rogue](./14-catch-the-rogue.md)** (ASI10)
+**[Chapter 11 → Code Execution — Sandbox Model-Written Code](./11-code-execution.md)** (ASI05) ·
+**[Chapter 12 → Failure Containment — Limit Blast Radius](./12-failure-containment.md)** (ASI08) ·
+**[Chapter 13 → Human Approval — Make Confirmations Real](./13-human-approval.md)** (ASI09) ·
+**[Chapter 14 → Rogue Agents — Detect Goal Drift and Stop It](./14-rogue-agents.md)** (ASI10)
 
 ---
 

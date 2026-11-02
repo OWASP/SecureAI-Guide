@@ -1,12 +1,19 @@
-# AI Security Development Guide
+# OWASP Secure AI Guide
 
-This repository is a sample security workbook for teams building **agentic AI applications** — systems that call tools, hold memory, orchestrate sub-agents, and take real-world actions. It focuses on how those agents fail in production, and how to design them so common attacks and misuse paths are harder to exploit.
+A builder’s guide for **agentic AI** — agents that call tools, keep memory, hand off to other agents, and take actions.
 
-The workbook is organised around [OWASP](https://owasp.org/) risk categories for LLM and agentic systems — specifically the [LLM Top 10 (2025)](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and the [Top 10 for Agentic Applications (ASI) 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/). Each chapter targets one or more of those risks (for example prompt injection, tool misuse, supply chain, cascading failures, or rogue agents), with vulnerable and secure patterns you can apply while building.
+Each of the **14 chapters** maps to [OWASP LLM Top 10 (2025)](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and [OWASP Top 10 for Agentic Applications (ASI 2026)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/). You get the failure, the fix, and a lab you can run without an API key.
 
-**14 chapters. Vulnerable vs secure patterns in every chapter. Sample exploits. Sample fixes.**
+**What this repo contains**
 
-Every chapter follows the same recipe: scenario → vulnerable code → what breaks → secure code → what changed → hands-on lab.
+| You get | What it is |
+|---|---|
+| Chapters | Teaching scenario → vulnerable pattern → what breaks → secure pattern → what changed |
+| Labs | Local Jupyter notebooks with a mock LLM — no provider key, no Colab |
+| Snippets | Side-by-side `vulnerable.py` and `secure.py` you can copy into a codebase |
+| Tests | Pytest stubs that lock the secure patterns |
+
+This is a **pattern workbook**, not a recorded incident log. The scenarios are teaching setups; the controls are meant to be implemented in your tool layer, auth, and runtime — not in the prompt.
 
 ---
 
